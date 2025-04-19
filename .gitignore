@@ -1,0 +1,30 @@
+# === Python garbage ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# === Virtual environments ===
+env/
+venv/
+
+# === Environment variable files (secrets) ===
+.env
+*.env.*
+
+# === IDE and OS-specific files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Pytest and coverage reports ===
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === Docker (if used) ===
+Dockerfile
+docker-compose.yml
